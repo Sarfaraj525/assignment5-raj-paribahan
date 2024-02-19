@@ -23,6 +23,9 @@
     .special{
   color: #1dd100;
     }
+    .optional-color{
+      color: gray;
+    }
     .color-prime {
     color: #1dd100;
     }
@@ -715,7 +718,7 @@
                 class="input w-full border-gray-300 border border-solid focus:outline-none focus:border-none mt-2"/>
               <button
                 onclick="formSubmit(event)"
-                class="w-full bg-prime p-3 border-none rounded-lg raleway-font font-bold text-white my-6">
+                class="w-full bg-prime p-3 border-none rounded-lg raleway-font font-bold text-white my-6 hover:bg-white hover:border-[#1dd100] hover:text-black hover:border">
                 Next
               </button>
             </form>
@@ -779,7 +782,7 @@
                       Thank you for Booking Our Bus Seats. <br> We are working hard to find
                       the best service and deals for you.
                     </p>
-                    <p>Shortly you will find a confirmation in your email.</p>
+                    <p class="optional-color">Shortly you will find a confirmation in your email.</p>
                     <div class="w-full flex justify-center">
                       <button
                       onclick="modalHide()"
