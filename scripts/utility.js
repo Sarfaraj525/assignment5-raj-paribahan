@@ -34,5 +34,4 @@ newRow.appendChild(cell1);
 newRow.appendChild(cell2);
 newRow.appendChild(cell3);
 table.appendChild(newRow);
-
 }
